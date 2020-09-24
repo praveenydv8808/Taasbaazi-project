@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+    
+    function Players()
+    {
+        var sum1,sum2,sum3,sum4,sum5;
+        (parseInt(document.getElementById("R1").value)+parseInt(document.getElementById("R2").value)+parseInt(document.getElementById("R3").value)+parseInt(document.getElementById("R4").value)+parseInt(document.getElementById("R5").value)+parseInt(document.getElementById("R6").value)+parseInt(document.getElementById("R7").value)+parseInt(document.getElementById("R8").value)+parseInt(document.getElementById("R9").value)+parseInt(document.getElementById("R10").value)+parseInt(document.getElementById("R11").value)+parseInt(document.getElementById("R12").value)+parseInt(document.getElementById("R13").value))=sum1;
+        (document.getElementById("M1").value+document.getElementById("M2").value+document.getElementById("M3").value+document.getElementById("M4").value+document.getElementById("M5").value+document.getElementById("M6").value+document.getElementById("M7").value+document.getElementById("M8").value+document.getElementById("M9").value+document.getElementById("M10").value+document.getElementById("M11").value+document.getElementById("M12").value+parseInt(document.getElementById("M13").value))=sum2;
+        (document.getElementById("P1").value+document.getElementById("P2").value+document.getElementById("P3").value+document.getElementById("P4").value+document.getElementById("P5").value+document.getElementById("P6").value+document.getElementById("P7").value+document.getElementById("P8").value+document.getElementById("P9").value+document.getElementById("P10").value+document.getElementById("P11").value+document.getElementById("P12").value+document.getElementById("P13").value)=sum3;
+        (document.getElementById("D1").value+document.getElementById("D2").value+document.getElementById("D3").value+document.getElementById("D4").value+document.getElementById("D5").value+document.getElementById("D6").value+document.getElementById("D7").value+document.getElementById("D8").value+document.getElementById("D9").value+document.getElementById("D10").value+document.getElementById("D11").value+document.getElementById("D12").value+document.getElementById("D13").value)=sum4;
+        (document.getElementById("JP1").value+document.getElementById("JP2").value+document.getElementById("JP3").value+document.getElementById("JP4").value+document.getElementById("JP5").value+document.getElementById("JP6").value+document.getElementById("JP7").value+document.getElementById("JP8").value+document.getElementById("JP9").value+document.getElementById("JP10").value+document.getElementById("JP11").value+document.getElementById("JP12").value+document.getElementById("JP13").value)=sum5;
+        parseInt(document.getElementById("Ans1"))=sum1;
+        ParseInt(document.getElementById("Ans2"))=sum2;
+        parseInt(document.getElementById("Ans3"))=sum3;
+        parseInt(document.getElementById("Ans4"))=sum4;
+        parseInt(document.getElementById("Ans5"))=sum5;
+        
+    }
+     
+     function Total(){
+        
+        var Total_sum=sum1+sum2+sum3+sum4+sum5;
+        document.getElementById("To")=Total;
+
+
+     }
+    
+    </script>
+    <style> table{border:5px solid black;}
+            th,td{border:3px solid black;}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAASHBAAZI</title>
+</head>
+<body>
+    <H1 style="border: rgba(11, 12, 11, 0.87);" style="font-size:larger ;">TAASHBAAZI</H1>
+<section>
+        <table>
+            <tr>
+                <th bgcolor="Yellow">No. of Round</th>
+                <th bgcolor="Yellow">Rahul</th>
+                <th bgcolor="Yellow">Mintu</th>
+                <th bgcolor="Yellow">Pradum</th>
+                <th bgcolor="Yellow">Deepak</th>
+                <th bgcolor="Yellow">Jp</th>
+            </tr>
+            
+            <tr>
+                <td id="Round1">1.</td>
+                <td ><input type="number" id="R1"></td>
+                <td ><input type="number" id="M1"></td>
+                <td ><input type="number" id="P1"></td>
+                <td ><input type="number" id="D1"></td>
+                <td ><input type="number" id="JP1"></td>
+            </tr>
+
+            <tr>
+                <td id="Round2">2.</td>
+                <td ><input type="number" id="R2"></td>
+                <td ><input type="number" id="M2"></td>
+                <td ><input type="number" id="P2"></td>
+                <td ><input type="number" id="D2"></td>
+                <td ><input type="number" id="JP2"></td>
+            </tr>
+
+            <tr>
+                <td id="Round3">3.</td>
+                <td ><input type="number" id="R3"></td>
+                <td ><input type="number" id="M3"></td>
+                <td ><input type="number" id="P3"></td>
+                <td><input type="number"  id="D3"></td>
+                <td ><input type="number" id="JP3"></td>
+            </tr>
+
+            <tr>
+                <td id="Round4">4.</td>
+                <td ><input type="number" id="R4"></td>
+                <td ><input type="number" id="M4"></td>
+                <td ><input type="number" id="P4"></td>
+                <td><input type="number"  id="D4"></td>
+                <td ><input type="number" id="JP4"></td>
+            </tr>
+
+            <tr>
+                <td id="Round5">5.</td>
+                <td ><input type="number" id="R5"></td>
+                <td ><input type="number" id="M5"></td>
+                <td ><input type="number" id="P5"></td>
+                <td ><input type="number" id="D5"></td>
+                <td ><input type="number" id="JP5"></td>
+            </tr>
+
+            <tr>
+                <td id="Round6">6.</td>
+                <td ><input type="number" id="R6"></td>
+                <td ><input type="number" id="M6"></td>
+                <td ><input type="number" id="P6"></td>
+                <td ><input type="number" id="D6"></td>
+                <td ><input type="number" id="JP6"></td>
+            </tr>
+
+            <tr>
+                <td id="Round7">7.</td>
+                <td ><input type="number" id="R7"></td>
+                <td ><input type="number" id="M7"></td>
+                <td><input type="number"  id="P7"></td>
+                <td ><input type="number" id="D7"></td>
+                <td ><input type="number" id="JP7"></td>
+            </tr>
+
+            <tr>
+                <td id="Round8">8.</td>
+                <td ><input type="number" id="R8"></td>
+                <td ><input type="number" id="M8"></td>
+                <td ><input type="number" id="P8"></td>
+                <td ><input type="number" id="D8"></td>
+                <td ><input type="number" id="JP8"></td>
+            </tr>
+
+            <tr>
+                <td id="Round9">9.</td>
+                <td ><input type="number" id="R9"></td>
+                <td ><input type="number" id="M9"></td>
+                <td><input type="number"  id="P9"></td>
+                <td ><input type="number" id="D9"></td>
+                <td><input type="number"  id="JP9"></td>
+            </tr>
+
+            <tr>
+                <td>10.</td>
+                <td><input type="number"  id="R10"></td>
+                <td ><input type="number" id="M10"></td>
+                <td ><input type="number" id="P10"></td>
+                <td ><input type="number" id="D10"></td>
+                <td  ><input type="number" id="JP10"></td>
+            </tr>
+
+            <tr>
+                <td>11.</td>
+                <td ><input type="number" id="R11"></td>
+                <td ><input type="number" id="M11"></td>
+                <td ><input type="number" id="P11"></td>
+                <td ><input type="number" id="D11"></td>
+                <td><input type="number"  id="JP11"></td>
+            </tr>
+
+            <tr>
+                <td>12.</td>
+                <td ><input type="number" id="R12"></td>
+                <td ><input type="number" id="M12"></td>
+                <td ><input type="number" id="P12"></td>
+                <td ><input type="number" id="D12"></td>
+                <td ><input type="number" id="JP12"></td>
+            </tr>
+            <tr>
+                <td>13.</td>
+                <td ><input type="number" id="R13"></td>
+                <td><input type="number"  id="M13"></td>
+                <td ><input type="number" id="P13"></td>
+                <td ><input type="number" id="D13"></td>
+                <td ><input type="number" id="JP13"></td>
+            </tr>
+
+
+
+            </table>
+        </br>
+        <button onclick="Players()">CALCULATE</button>
+        <input id="Ans1">
+        <input id="Ans2">
+        <input id="Ans4">
+        <input id="Ans5">
+        </br>
+        </br>
+        <button onclick="Total()">TOTAL</button>
+        <input id="To">
+</section>
+    
+</body>
+</html>
